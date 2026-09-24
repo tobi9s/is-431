@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+\usepackage{float}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{fontspec}
+\usepackage{apacite}
+\setmainfont{Times New Roman}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=2cm,right=2cm,marginparwidth=1.5cm]{geometry}
+
+\title{Weekly assignment 1: Current state of cybersecurity}
+\author{Truong Khang Tobias Nguyen}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Current State of Cybersecurity}
+As digital technologies advance, cybersecurity has become an increasingly, yet sometimes overlooked, important challenge for governments, businesses and individuals.
+\newline 
+Almost every aspect of daily life depends on digital technology - businesses store sensitive data online, governments provide services digitally, and individuals use phones and computers to access services such as communication, banking, shopping, and entertainment.
+\newline
+At the same time, cyberattacks are becoming more sophisticated, organized and rely less on technical vulnerabilities. For example, the 2020 Twitter Bitcoin Scam was an cyberattack that did not rely on any technical exploits at all and instead, relied mostly on social engineering \cite{twitterhack}. Additionally, cyberattacks today go far beyond attacking individuals or businesses anymore as attacks even target governments or critical sectors such as health, finance or energy.
+\newline
+In summary, while everything is becoming more digitalized and technologies such as cloud technologies, IoT, and AI rapidly evolve, cyberattacks become more advanced and I believe that the current state of cybersecurity is not a problem that can be solved, but more of a race between attackers and defenders, where both parties continuously try to adapt to each other first.
+
+\section{Concerns}
+I have multiple concerns regarding the current state of cybersecurity which are as followed:
+\subsection{Dependency on Third-Parties and Supply Chains}
+As organizations grow, their amount of applications and infrastructure also grow but their departments responsible for such things don't grow linearly. Due to this, organizations often don't operate fully on their own applications and infrastructure, but rather rely on software/infrastructure providers, contractors, managed services or external partners.
+\newline
+This can cause organizations to be compromised because because of a vulnerability in a third-party rather than a failure in the organization's security measures itself. One example for such a vulnerability is the supply chain attack on the Python library \textbf{LiteLLM} where an exploit in the library could have potentially led to compromised credentials of multiple organizations \cite{litellm}.     
+\subsection{The Rise of Artificial Intelligence}
+Even though multiple technologies are advancing, the most known one is AI. Although the impact of AI is transformative, it can also be utilized by attackers to work more efficiently. Methods such as deepfakes, phishing (and also vishing), producing malicious code, and discovering vulnerabilities can be done faster and efficient due to AI. Even though AI has created new forms of cybercrime, it enables attacks to be faster, cheaper and easier to scale and can potentially lead to an increasing number of attacks that businesses, governments and individuals need to defend themselve against.
+\subsection{Human Factors}
+Human factors play an increasingly important role in the current cybersecurity environment as nowadays, the nature of cyberattacks isn’t purely technical and aren’t just attacks on technical systems, but also an attack on human behaviour. Even the strongest technical defenses can undermined by human mistakes and social engineering as for example, the 2020 Twitter Bitcoin Scam was executed by means of social engineering \cite{twitterhack}.
+\newline
+This shows that cybersecurity can't be solved purely through technology, but also requires people to be a part of the security architecture.
+
+\section{Main Reasons}
+I think that the reasons of the current state of cybersecurity can be broken down to technical and economic factors.
+\newline
+First, as systems become more digitalized, they become more complex as organizations rely on more applications, services, devices, etc. Every new connection creates a new attack surface that malicious parties can potentially exploit. Additionally, with many services coming from different parties, one compromised service can have cascading effects on an entire system.
+\newline
+Second, there is also an imbalance between attackers and defenders. While defenders need to protect multiple applications, devices and services simultaneously, attackers usually only need a single point of weakness to compromise an entire system, which can be even more serious when organizations have limited budgets or cybersecurity knowledge.
+\newline
+Third, cybersecurity can often be seen as a cost rather than an investment. Procuring security tools, training employees, patching old systems and replacing outdated infrastructure can seem expensive when an organization has not been attacked yet. As security measures themselves don't generate revenue themselves and don't immediately lead to visible benefits, organizations may prioritize productivity and financial goals.
+Finally, cybercrime itself has become an attractive business model. Ransomware, stolen credentials and data theft can generate high financial rewards and as long as the rewards outweigh the risks of being caught, cybercrime will remain to be an attractive business model.
+
+\bibliographystyle{apacite}
+\bibliography{references}
+
+\end{document}
